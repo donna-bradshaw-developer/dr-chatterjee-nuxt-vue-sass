@@ -1,0 +1,24 @@
+@import './partials/variables';
+@import './partials/nav';
+@import './partials/index';
+@import './partials/footer';
+@import './partials/blog-post';
+@import './partials/side_menu';
+@import './partials/testimonial.scss';
+
+html, body{
+    font-family: 'Circular-Book', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: $deep-royal;
+}
+
+.container{
+    padding: 0px;
+    margin: 0px;
+}

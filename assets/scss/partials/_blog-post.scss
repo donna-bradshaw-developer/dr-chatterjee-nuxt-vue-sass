@@ -1,0 +1,78 @@
+
+.blog-post{
+    margin: 35px 0px;
+    background-color: white;
+    width: 100%; 
+    height: auto;
+    @include small-min{
+        min-width: 340px;
+        margin: 0px;
+        flex-basis: 45%;
+    }
+    @include x-large-min{
+        
+    }
+    .blogImage{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        position: relative;
+        width: 100%; 
+        height: 314px;
+        margin: 0px;
+        @include x-small-range{
+            height: 475px;
+        }
+        .layer-image{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+    }
+    .blogContent{
+        padding: 25px;
+        @include small-range{
+            padding: 55px 40px;
+        }
+        @include med-range{
+            padding: 55px 30px ;
+        }
+        @include large-range{
+            padding: 55px 35px;
+        }
+        @include x-large-min{
+            padding: 25px;
+        }
+        h6, span{
+            color: $deep-royal;
+            padding: 20px 0px;
+            font-size: 1.2em;
+        }
+        h5{
+            font-weight: bold;
+            font-size: 1.25em;
+            @include large-min{
+                font-size: 1.45em;
+                max-width: 375px;
+            }
+            @include x-large-min{
+                font-size: 1.25em;
+            }
+        }
+        p{
+            padding: 10px 0px;
+            font-weight: lighter;
+            font-size: .95em;
+            height: 100px;
+            overflow: hidden;
+            @include large-min{
+                font-size: 1em;
+            }
+        }
+        .blogPostTitle{
+            color: $blog-header;
+        }
+    }
+}

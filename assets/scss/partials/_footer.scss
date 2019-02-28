@@ -1,0 +1,54 @@
+
+#page-footer{
+    background-color: $eggshell;
+    padding: 0px 50px;
+    width: 100%;
+    @include small-min{
+        margin-top: 100px;
+        padding: 20px;
+    }
+    @include x-large-min{
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #social-icons > img{
+        margin-right: 50px;
+        padding-bottom: 30px;
+        @include small-min{
+            display: inline;
+            padding: 30px 10px;
+            margin-right: 0px;
+        }
+        @include x-large-min{
+            margin-left: 20px;
+            padding: 30px 10px;
+        }
+    }
+    
+    #footer-links-div{
+        @include x-large-min{
+            width: 700px;
+        }
+        .footer-links{
+            display: block;
+            font-size: 1.1em;
+            padding: 15px 0px;
+            text-decoration: none;
+            color: $grey;
+            @include small-min{
+                display: inline;
+                padding: 20px;
+                font-size: .95em;
+            }
+        }
+    }  
+}
+
+#copyright{
+    background-color: white;
+    padding: 20px 0px 20px 50px;
+    color: $grey;
+}

@@ -1,0 +1,93 @@
+@font-face{
+    font-family: 'Circular-Black', sans-serif;
+    src: url('../fonts/Circular/CircularStd-Black.ttf')
+}
+
+@font-face{
+    font-family: 'Circular-Black-Italic', sans-serif;
+    src: url('../fonts/Circular/CircularStd-BlackItalic.ttf')
+}
+
+@font-face{
+    font-family: 'Circular-Book', sans-serif;
+    src: url('../fonts/Circular/CircularStd-Book.ttf')
+}
+
+@font-face{
+    font-family: 'Circular-Bold', sans-serif;
+    src: url('../fonts/Circular/CircularStd-Bold.ttf')
+}
+
+$eggshell: #F7F7F5;
+
+$deep-royal: rgba(32, 17, 217, 1);
+
+$light-grey: rgba(251, 251, 250, 1);
+
+$dropdown-grey:  rgba(241, 241, 241, 1);
+
+$grey:  rgba(108, 108, 106, 1);
+
+$blog-header: #3C3B3A;
+
+//media query variables
+
+$x-small-width: 550px;
+$small-width: 775px;
+$medium-width: 850px;
+$large-width: 1000px;
+$x-large-width: 1215px;
+
+@mixin x-small-min{
+    @media (min-width: #{$x-small-width}){
+        @content;
+      }
+}
+
+@mixin x-small-range{
+    @media (min-width: #{$x-small-width}) and (max-width: #{$small-width - 1px}) {
+        @content;
+      }
+}
+
+@mixin small-min{
+    @media (min-width: #{$small-width}){
+        @content;
+      }
+}
+
+@mixin small-range{
+    @media (min-width: #{$small-width}) and (max-width: #{$medium-width - 1px}) {
+        @content;
+      }
+}
+
+@mixin med-min{
+    @media (min-width: #{$medium-width}){
+        @content;
+      }
+}
+
+@mixin med-range{
+    @media (min-width: #{$medium-width}) and (max-width: #{$large-width - 1px}) {
+        @content;
+      }
+}
+
+@mixin large-min{
+    @media (min-width: #{$large-width}){
+        @content;
+      }
+}
+
+@mixin large-range{
+    @media (min-width: #{$large-width}) and (max-width: #{$x-large-width - 1px}) {
+        @content;
+      }
+}
+
+@mixin x-large-min{
+    @media (min-width: #{$x-large-width}){
+        @content;
+      }
+}

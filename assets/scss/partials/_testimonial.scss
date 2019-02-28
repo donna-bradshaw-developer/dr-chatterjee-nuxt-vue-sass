@@ -1,0 +1,137 @@
+
+#testimonial-header{
+    font-size: 3em;
+    margin: 0px;
+    padding: 15px 35px; 
+    @include small-min{
+        font-size: 6em;
+        padding: 20px 0px 20px 70px;
+    }
+    @include large-min{
+        font-size: 8em;
+        padding: 15px 15%;
+    }
+}
+
+#testimonial-container{
+    margin: 0px auto;
+    @include small-min{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+    @include x-large-min{
+        max-width: 1440px;
+        padding: 0px 60px;
+    }
+
+    #group{
+        padding: 20px;
+        column-count: 1;
+        column-gap: 0;
+        @include small-min{
+            padding: 0px;
+            margin: 0px;
+            column-count: 2;
+            max-height: 1152px;
+            width:775px;
+        }
+        @include med-min{
+            width: 850px;
+            max-height: 1105px
+        }
+        @include large-min{
+            width: 1000px;
+            max-height: 1037.5px
+        }
+        @include x-large-min{
+            column-count: 3;
+            column-fill: auto;
+            min-height: 1110px;
+            width: 1215px;
+        }
+        .individual-testimony{
+            background-color: $eggshell;
+            padding: 45px;
+            margin: 0px 22px 36px;
+            text-align: center;
+            @include small-min{
+                margin: 0px 23px 41px;
+                padding: 29.5px 37px 20px;
+                font-size: .87em;
+                text-align: left;
+            }
+            @include med-min{
+                margin: 0px 32px 57px;
+                padding: 43px 24px 30px;
+            }
+            @include large-min{
+                margin: 0px 32px 57px;
+                padding: 43px 24px 30px;
+                font-size: .9em
+            }
+            @include x-large-min{
+                padding: 50px 24px 60px;
+                margin: 0px 17px 20px;
+                min-height: 300px;
+            }
+
+            p{
+                @include small-min{
+                    margin: 15px 0px 9px;
+                }
+                @include med-min{
+                    margin: 0px 0px 13px;
+                }
+                @include x-large-min{
+                    margin: 0px 0px 17px;
+                    padding: 0px 25px 15px;
+                }
+            }
+            .testimonial-person{
+                @include small-min{
+                    padding: 15px 0px 7px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                @include x-large-min{
+                    padding: 7px 0px 7px;
+                }
+
+                img{
+                    width: 70px;
+                    height: 70px;
+                    margin-bottom: 10px;
+                    @include small-min{
+                        width: 50px;
+                        height: 50px;
+                        margin: 20px;
+                    }
+                }
+            
+                span{
+                    display: block;
+                    @include small-min{
+                        display: inline;
+                        text-align: left;
+                    }
+                }
+            }
+
+            .grey{
+                color:$grey;
+            }
+        }
+    }
+}   
+
+
+
+
+
+
+
+    
+
+

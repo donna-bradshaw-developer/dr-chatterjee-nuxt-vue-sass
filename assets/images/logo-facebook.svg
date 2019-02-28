@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Global-elements/desktop-footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1315.000000, -33.000000)">
+        <g id="footer" transform="translate(0.000000, 33.000000)" fill="#444444" fill-rule="nonzero">
+            <g id="social" transform="translate(1228.000000, 0.000000)">
+                <g id="logo-facebook" transform="translate(87.169492, 0.000000)">
+                    <path d="M15.5833333,0 L1.41666667,0 C0.633958333,0 0,0.633958333 0,1.41666667 L0,15.5833333 C0,16.3660417 0.633958333,17 1.41666667,17 L9.20833333,17 L9.20833333,10.625 L7.08333333,10.625 L7.08333333,7.79166667 L9.20833333,7.79166667 L9.20833333,5.95920833 C9.20833333,3.763375 10.5492083,2.56770833 12.5084583,2.56770833 C13.447,2.56770833 14.2530833,2.63783333 14.48825,2.669 L14.48825,4.964 L13.1296667,4.96470833 C12.0643333,4.96470833 11.8582083,5.47116667 11.8582083,6.2135 L11.8582083,7.79166667 L15.0032083,7.79166667 L14.294875,10.625 L11.8582083,10.625 L11.8582083,17 L15.5833333,17 C16.3660417,17 17,16.3660417 17,15.5833333 L17,1.41666667 C17,0.633958333 16.3660417,0 15.5833333,0 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,108 @@
+#side-menu{
+    padding: 20px 7.5%;
+    @include x-large-min{
+        float: left;
+        position: relative;
+        padding: 150px 7.5% 525px;
+    }
+    #side-menu-links{
+        display: none;
+        @include small-min{
+            display: block;
+        }
+        a{
+            display: block;
+            margin: 15px 0px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+
+    .side-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline;
+            align-items: center;
+            background-color: white;
+            padding: 40px;
+            width: 405px;
+            h3{
+                width: 100%;
+            }
+            p{
+                padding: 10px 0px;
+                font-weight: lighter;
+            }
+            input{
+                border-width: 1px;
+                border-style: solid;
+                border-color: $dropdown-grey;
+                border-radius: 2px;
+                width: 100%;
+                padding: 5px;
+                color: $dropdown-grey;
+                font-size: .9em;
+            }
+            button{
+                margin-top: 30px;
+                background-color: $deep-royal;
+                padding: 5px 50px;
+                border-radius: 25px;
+                color: white;
+                font-size: .9em;
+            }
+        }
+        .sideImage{
+            margin: 35px 0px;
+            width: 360px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+            img{
+                position: absolute;
+                left: 47%;
+                top: 75px;
+            }
+        }
+
+    }
+
+    #social-image-icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        @include x-small-min{
+            justify-content: center;
+        }
+        @include small-min{
+            justify-content: left;
+        }
+        @include x-large-min{
+            position: absolute;
+            top: 90px;
+        }
+        .socialIcons{
+            background-color: white;
+            padding: 12px 15px;
+            border-radius: 50%;
+            margin: 0px 5px;
+            img{
+                width: 35px;
+                height: 35px;
+                @include x-large-min{
+                    width: 23px;
+                    height: 23px;
+                }
+            }
+        }
+    }
+}
+
